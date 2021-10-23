@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Assignment</groupId>
+  <artifactId>LocusAssignment</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <dependencies>
+	  <dependency>
+		  <groupId>com.google.maps</groupId>
+		  <artifactId>google-maps-services</artifactId>
+		  <version>0.19.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-simple</artifactId>
+		  <version>1.7.25</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+		<dependency>
+		    <groupId>org.jasypt</groupId>
+		    <artifactId>jasypt</artifactId>
+		    <version>1.9.3</version>
+		</dependency>
+		<dependency>
+	        <groupId>org.junit.vintage</groupId>
+	        <artifactId>junit-vintage-engine</artifactId>
+	        <version>5.4.0</version>
+	        <scope>test</scope>
+   		 </dependency>
+   		 <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/mockwebserver -->
+		<dependency>
+		    <groupId>com.squareup.okhttp3</groupId>
+		    <artifactId>mockwebserver</artifactId>
+		    <version>4.9.1</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20201115</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+		    <groupId>org.apache.httpcomponents</groupId>
+		    <artifactId>httpclient</artifactId>
+		    <version>4.5.13</version>
+		</dependency>
+	</dependencies>
+</project>
